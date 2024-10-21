@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px white solid;
+}
+
+.container--help{
+    margin-right: 30px;
+}
+
+.container--help :nth-child(4){
+    color: #f21667;
+}
+
+h2{
+    color: white;
+    margin-left: 30px;
+}
+
+span{
+    color: #f21667;
+}
+
+nav a{
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+
+main {
+    flex: 1;
+    display: flex;
+
+}
+
+
+.container--text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.container--img{
+    width: 50%;
+    background-image:url(./ken-carson-album-cover.jpg);
+    background-position: center;
+    background-size: 30%;
+}
+
+button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    background-color: #f21667;
+    color: white;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.container--buttons :nth-child(2){
+    background-color: #9913f2;
+}
+
+h1{
+    font-size: 90px;
+    color: white;
+}
+
+h1 span{
+    color: blueviolet;
+}
+
+p{
+    color: white;
+    font-size: 18px;
+}
+footer {
+    height: 5px;
+    text-align: center;
+    padding: 5px;
+    border-top: 1px white solid;
+
+}
